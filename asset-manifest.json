@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.82088789.css",
+    "main.js": "/portfolio/static/js/main.b9946dd1.js",
+    "static/media/matcheadas.jpg": "/portfolio/static/media/matcheadas.141b30340140afa58c97.jpg",
+    "static/media/ceci.jpg": "/portfolio/static/media/ceci.071c9b8d2fda2193ffb7.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.82088789.css.map": "/portfolio/static/css/main.82088789.css.map",
+    "main.b9946dd1.js.map": "/portfolio/static/js/main.b9946dd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82088789.css",
+    "static/js/main.b9946dd1.js"
+  ]
+}
