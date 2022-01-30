@@ -1,0 +1,61 @@
+.matcheadas{
+
+    .img-text{
+        width: 90%;
+    }
+
+    img{
+        width: 90%;
+    }
+    .project-detail{
+        width: 90%;
+        height: 22.5rem;
+
+            h5{
+                font-size: 0.8rem;
+                font-weight: 500; 
+            }
+
+            h4{
+                font-size: 0.6rem;
+                font-weight: 500; 
+            }
+
+            .info-text{
+                width: 17rem;
+            }
+            .skills{
+                list-style-type: none;
+                font-size: 0.5rem;
+                font-weight: 200;
+                padding: 0px;
+            }
+    }
+    p{  
+        font-size: 0.5rem;
+        font-weight: 200;
+    }
+    button{
+        border: none;
+        outline: none;
+        text-decoration: underline;
+        background-color: transparent;
+    }
+    .info-demo{
+        list-style-type: none;
+        display: inline;
+    
+        li{
+            font-size: 0.5rem;
+            font-weight: 500; 
+            display: inline;
+        }
+    }
+
+    a{
+        text-decoration: underline;
+        color: rgb(44, 47, 54);
+    }
+
+}
+
