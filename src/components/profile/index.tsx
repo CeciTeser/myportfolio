@@ -11,7 +11,7 @@ const Profile =()=>{
             <h4 className='mt-3'>CECI TESER</h4>
             <h5>FRONTEND DEVELOPER</h5>
            
-            <p className='pt-3'>Currently finishing the Frontend developer career at ADA ITW and looking for the first experiences as Trainee or Junior developer.</p>
+            <p className='pt-3'>Recently finished the Frontend developer career at ADA ITW and looking for the first experiences as Trainee or Junior developer.</p>
         
 
             <div className='mt-5'>
