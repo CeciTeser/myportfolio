@@ -1,7 +1,11 @@
+@import '../../scss/main.scss';
+
 .profile{
+
+    color: $primary-color;
     
     img {
-        width: 80%; 
+        width: 50%; 
         height: auto;
         border-radius: 50%;
     }
@@ -14,8 +18,9 @@
     }
 
     p{
-        font-size: 0.6rem;
-        font-weight: 100;
+        font-size: 0.8rem;
+        font-weight: 300;
+        width: 70%;
     }
 
     h3{
@@ -26,10 +31,10 @@
     ul{
         list-style-type: none;
         padding: 0px;
+        font-weight: 200;
 
         li{
             font-size: 0.7rem;
-            font-weight: 100;
             
         }
     }

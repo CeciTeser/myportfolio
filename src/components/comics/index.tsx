@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import matcheadas from '../../assets/img/matcheadas/matcheadas.jpg';
+import comics from '../../assets/img/comics/comics.jpg';
 
 
 import './style.scss';
 
-const Matcheadas = () => {
+const Comics = () => {
 
     const [toggle, setToggle] = useState(false);
 
@@ -14,16 +14,16 @@ const Matcheadas = () => {
 
     return (
 
-        <div className='container matcheadas'>  
+        <div className='container comics'>  
             <div className='img-info'>
                 { (toggle === false)?
-                    <img src={matcheadas} alt="matcheadas" />
+                    <img src={comics} alt="comics" />
                     :
 
                     (toggle === true)?
 
                     <div className='project-detail pt-5 pe-5'>
-                        <h5>MATCHEADAS PROJECT</h5>
+                        <h5>COMICS PROJECT</h5>
                         <div className='d-flex flex-row pt-5'>
                             <div className='d-flex flex-column'>
                                 <h4>INFO</h4>
@@ -44,11 +44,11 @@ const Matcheadas = () => {
             </div>
             
             <div className='img-text d-flex flex-row justify-content-between'>
-                <p className='pt-2'><strong>MATCHEADAS:</strong> HTML / CSS / JAVASCRIPT</p>
+                <p className='pt-2'><strong>COMICS:</strong> HTML / SASS / BOOTSTRAP / TYPESCRIPT / JAVASCRIPT / API REST </p>
                 <ul className='row info-demo'>
                     <li><button onClick={triggerToggle} >INFO</button></li>
-                    <li><a href="https://cabezadenispero.github.io/matcheadas/" target="_blank">DEMO</a></li>
-                    <li><a href="https://github.com/CeciTeser/Matcheadas" target="_blank">CODE</a></li>
+                    <li><a href="https://buscador-de-comics.netlify.app/" target="_blank">DEMO</a></li>
+                    <li><a href="https://github.com/CeciTeser/Buscador-de-Comics" target="_blank">CODE</a></li>
                 </ul>
             </div>
         </div>
@@ -56,4 +56,4 @@ const Matcheadas = () => {
     )
 }
 
-export { Matcheadas }
+export { Comics }
