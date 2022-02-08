@@ -1,6 +1,7 @@
+
 @import '../../scss/main.scss';
 
-.matcheadas{
+.cinema{
 
     padding-bottom: 7rem;
 
@@ -8,7 +9,7 @@
         width: 100%;
         height: 32rem;
    
-
+    
         .img-text{
             width: 100%;
         }
@@ -20,7 +21,6 @@
         }
         .project-detail{
             width: 90%;
-            height: 26rem;
 
                 h5{
                     font-size: 0.8rem;
@@ -43,6 +43,7 @@
                 }
         }
     }
+
     p{  
         font-size: 0.7rem;
         font-weight: 300;

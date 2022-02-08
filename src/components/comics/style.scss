@@ -1,6 +1,6 @@
 @import '../../scss/main.scss';
 
-.matcheadas{
+.comics{
 
     padding-bottom: 7rem;
 
@@ -8,7 +8,6 @@
         width: 100%;
         height: 32rem;
    
-
         .img-text{
             width: 100%;
         }
@@ -22,27 +21,28 @@
             width: 90%;
             height: 26rem;
 
-                h5{
-                    font-size: 0.8rem;
-                    font-weight: 500; 
-                }
+            h5{
+                font-size: 0.8rem;
+                font-weight: 500; 
+            }
 
-                h4{
-                    font-size: 0.6rem;
-                    font-weight: 500; 
-                }
+            h4{
+                font-size: 0.6rem;
+                font-weight: 500; 
+            }
 
-                .info-text{
-                    width: 17rem;
-                }
-                .skills{
-                    list-style-type: none;
-                    font-size: 0.5rem;
-                    font-weight: 200;
-                    padding: 0px;
-                }
+            .info-text{
+                width: 17rem;
+            }
+            .skills{
+                list-style-type: none;
+                font-size: 0.5rem;
+                font-weight: 200;
+                padding: 0px;
+            }
         }
     }
+
     p{  
         font-size: 0.7rem;
         font-weight: 300;
@@ -53,6 +53,7 @@
         text-decoration: underline;
         background-color: transparent;
     }
+    
     .info-demo{
         list-style-type: none;
         display: inline;
