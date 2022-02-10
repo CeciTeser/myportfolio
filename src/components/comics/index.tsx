@@ -27,7 +27,21 @@ const Comics = () => {
                         <div className='d-flex flex-row pt-5'>
                             <div className='d-flex flex-column'>
                                 <h4>INFO</h4>
-                                <p className='info-text'>I have developed, together with a team, an application building a grid where the input of the player is controlled, applying the logic of the game and functionalities such as a difficulty scoring system to create a fully interactive experience. We have started our project by building the design and then we have focused on adding the corresponding functionality on JavaScript.</p>
+                                <p className='info-text me-5'>
+                                In this project we have made an application that allows us to list comics and their characters, as well as to obtain information about them. For that we have used a REST API with real data, which has allowed us to make queries to it by passing different parameters that allow us to customize the search and display the data obtained as a response. <br />
+                                <br />
+                                The API that we have used for this project is the one of Marvel Comics.<br />
+                                <br />
+                                Some of the functionalities that we have had to give it have been the following ones:<br />
+                                <br />
+                                -  Search for comics or character, sort the results alphabetically and by release date, in ascending and descending order
+                                <br />
+                                - The information detail is shown (when clicking on it) 
+                                <br />
+                                - The total number of results must be shown when the results are listed.
+                                <br />
+                                - It has a pagination
+                                </p>
                             </div>
                             <div className='d-flex flex-column ps-5'>
                                 <h4>SKILLS</h4>

@@ -27,7 +27,15 @@ const Matcheadas = () => {
                         <div className='d-flex flex-row pt-5'>
                             <div className='d-flex flex-column'>
                                 <h4>INFO</h4>
-                                <p className='info-text'>I have developed, together with a team, an application building a grid where the input of the player is controlled, applying the logic of the game and functionalities such as a difficulty scoring system to create a fully interactive experience. We have started our project by building the design and then we have focused on adding the corresponding functionality on JavaScript.</p>
+                                <p className='info-text me-5'>
+                                    In this project we have realized a browser game known as match-3.    <br />
+                                    <br />
+
+                                    We have developed an application by building a grid where player input is controlled, applying game logic and features such as a difficulty scoring system to create a fully interactive experience.    <br />
+                                    <br />
+
+                                    Play with it and have fun while testing it!
+                                </p>
                             </div>
                             <div className='d-flex flex-column ps-5'>
                                 <h4>SKILLS</h4>

@@ -27,7 +27,24 @@ const Ahorradas = () => {
                         <div className='d-flex flex-row pt-5'>
                             <div className='d-flex flex-column'>
                                 <h4>INFO</h4>
-                                <p className='info-text'>I have developed, together with a team, an application building a grid where the input of the player is controlled, applying the logic of the game and functionalities such as a difficulty scoring system to create a fully interactive experience. We have started our project by building the design and then we have focused on adding the corresponding functionality on JavaScript.</p>
+                                <p className='info-text me-5'>
+                                    In this project we have made an application for the registration of income and expenses. It allows us to keep track of expenses incurred and income earned. We have applied what we have learned to structure and store the information in the application, and we have developed different functionalities that allow us to manipulate it and perform operations to work with data. <br />
+                                    <br />
+                                    <strong>Some of the functionalities</strong> <br />
+                                    <br />
+                                     
+                                    -  add, edit and delete operations and categories.<br />
+
+                                    - filter the operations.<br />
+
+                                    - sort the transactions.<br />
+
+                                    - obtain reports.<br />
+
+                                    -Category with the highest expense or the highest balance.<br />
+
+                                    -Month with the highest profit, highest expense or Totals (expenses, earnings and balances) by category or Totals (expenses, earnings and balances)<br />
+                                </p>
                             </div>
                             <div className='d-flex flex-column ps-5'>
                                 <h4>SKILLS</h4>

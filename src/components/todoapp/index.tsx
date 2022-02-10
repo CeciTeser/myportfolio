@@ -27,7 +27,15 @@ const Todo = () => {
                         <div className='d-flex flex-row pt-5'>
                             <div className='d-flex flex-column'>
                                 <h4>INFO</h4>
-                                <p className='info-text'>I have developed, together with a team, an application building a grid where the input of the player is controlled, applying the logic of the game and functionalities such as a difficulty scoring system to create a fully interactive experience. We have started our project by building the design and then we have focused on adding the corresponding functionality on JavaScript.</p>
+                                <p className='info-text me-5'>
+                                    The app was thought for those people who have dogs and need to organize their daily, monthly and/or yearly tasks.<br />
+                                    <br />
+                                    Each user has their own profile in which they can upload the names of their dogs, I have also used a call to an Api that allows me to access a list of breeds for you to select from when uploading your dog's profile. You can then select one of your dogs and query, add, edit or delete a specific task for the dog you have selected.<br />
+                                    <br />
+                                    Tasks have statuses (pending, in process, completed, cancelled).<br />
+                                    <br />
+                                    You can also add, delete or edit categories that you think can be useful to catalog a task.
+                                </p>    
                             </div>
                             <div className='d-flex flex-column ps-5'>
                                 <h4>SKILLS</h4>
