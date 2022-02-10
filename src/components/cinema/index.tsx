@@ -27,7 +27,20 @@ const Cinema = () => {
                     <div className='d-flex flex-row pt-5'>
                         <div className='d-flex flex-column'>
                             <h4>INFO</h4>
-                            <p className='info-text'>I have developed, together with a team, an application building a grid where the input of the player is controlled, applying the logic of the game and functionalities such as a difficulty scoring system to create a fully interactive experience. We have started our project by building the design and then we have focused on adding the corresponding functionality on JavaScript.</p>
+                            <p className='info-text me-5'>
+                                In this project I have created an application based on the management and use of a movie content platform. Connecting with an api of movies and series (TMDB) I got all the necessary information to nurture my content application.
+                                It has two types of actors: administrator and user.<br />
+                                <br />
+                              
+                                <strong>Administrator</strong><br />
+                                Login with "role admin". Access to all pages of the site. Select items (movies or series) from the api to add to the playback platform (Firebase). Delete items (movies or series) from the Firebase platform. Delete users.<br />
+                                <br />
+                                <strong>User</strong><br />
+                                Login with "role user". Access only to movies, series and details. Items (movies and series) can be marked as watched or unwatched.<br />
+                                <br />
+                                <strong>Screens: </strong>Signup, Login, Admin, Home, Movies, Series, Detail
+
+                            </p>
                         </div>
                         <div className='d-flex flex-column ps-5'>
                             <h4>SKILLS</h4>

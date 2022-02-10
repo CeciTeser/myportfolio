@@ -21,7 +21,7 @@ function App() {
 
         <div className="row">
 
-          <div className="col-md-2 fixed">
+          <div className="col-md-3 fixed">
             <Profile/>
           </div>
           
