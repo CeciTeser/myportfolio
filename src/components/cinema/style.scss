@@ -6,21 +6,15 @@
     padding-bottom: 7rem;
 
     .img-info{
-        width: 100%;
         height: 32rem;
    
-    
-        .img-text{
-            width: 100%;
-        }
 
         img{
             width: 100%;
             box-shadow: 0px 0px 7px 1px rgba(165, 165, 165, 0.33);
-
         }
+
         .project-detail{
-            width: 90%;
 
                 h5{
                     font-size: 0.8rem;
@@ -35,7 +29,6 @@
                 .info-text{
                     font-size: 0.8rem;
                     font-weight: 300;
-                    line-height: 17px;
                     width: 30rem;
                 }
                 .skills{
@@ -78,5 +71,196 @@
         color: rgb(44, 47, 54);
     }
 
+}
+
+@media (max-width: 1399px) {
+
+    .cinema{
+        .img-info{
+            height: 27rem;
+        }
+
+        .img-text{
+            margin-top: 3rem;
+        }
+
+        img{
+           
+            height: 27rem;;
+        }
+    }
+}
+
+@media (max-width: 990px) {
+
+    .cinema{
+
+        .img-text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .img-info{
+            
+            .project-detail{
+
+                .info-text{
+                    width: 90%;
+                    font-size: 0.7rem;
+                }
+            } 
+        }
+        
+    }
+}
+
+@media (max-width: 770px) {
+
+    .cinema{
+        padding-inline: 2px;
+
+        .img-info{
+            height: 20rem;
+           
+
+            img{
+                height: 20rem;
+               
+            }
+
+            .project-detail{
+
+                .detail-text{
+                    padding-top: 5px;
+                }
+
+                .info-text{
+                    font-size: 0.6rem;
+                }
+                .skills{
+                    font-size: 0.6rem;
+                }
+            } 
+        }
+
+    }
+}
+
+@media (max-width: 500px) {
+
+    .cinema{
+
+        .img-info{
+
+            margin-bottom: 5rem;
+
+
+            img{
+                margin-top: 3rem;
+                height: 17rem;
+               
+            }
+
+            .project-detail{
+
+                margin-bottom: 5px;
+
+                .detail-text{
+                    padding-top: 5px;
+             
+                }
+
+                .info-text{
+                    width: 100%;
+                    font-size: 0.6rem;
+                }
+                .skills{
+                   
+                    font-size: 0.6rem;
+                }
+            } 
+        }
+
+    }
+}
+
+@media (max-width: 445px) {
+
+    .cinema{
+
+        .img-info{
+
+            margin-bottom: 7rem;
+
+            img{
+                margin-top: 3rem;
+                height: 17rem;
+            }
+
+            .project-detail{
+                
+                .info-text{
+                    width: 15rem;
+                    font-size: 0.6rem;
+              
+                }
+                
+            } 
+        }
+        .img-text{
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+            ul{
+                padding-left: 0px;
+            }
+            
+        }
+
+    }
+}
+
+@media (max-width: 445px) {
+
+    .cinema{
+
+        .img-info{
+
+            margin-bottom: 7rem;
+          
+            img{
+                margin-top: 3rem;
+                height: 17rem;
+            }
+
+            .project-detail{
+                
+                .info-text{
+                    width: 15rem;
+                    font-size: 0.6rem;
+              
+                }
+                
+            } 
+        }
+        .img-text{
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+            ul{
+                padding-left: 0px;
+            }
+            
+        }
+
+    }
 }
 
