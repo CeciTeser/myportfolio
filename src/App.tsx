@@ -21,11 +21,11 @@ function App() {
 
         <div className="row">
 
-          <div className="col-md-3 fixed">
+          <div className="col-lg-3 fixed mb-sm-5">
             <Profile/>
           </div>
           
-          <div className="col-md-9 ">
+          <div className="col-lg-9 mb-sm-5">
 
             <Cinema/>
 

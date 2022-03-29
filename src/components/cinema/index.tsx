@@ -24,10 +24,10 @@ const Cinema = () => {
 
                 <div className='project-detail pt-5 pe-5'>
                     <h5>CINEMA PROJECT</h5>
-                    <div className='d-flex flex-row pt-5'>
-                        <div className='d-flex flex-column'>
+                    <div className='d-flex flex-row pt-md-5'>
+                        <div className='d-flex flex-column detail-text'>
                             <h4>INFO</h4>
-                            <p className='info-text me-5'>
+                            <p className='info-text me-lg-5'>
                                 In this project I have created an application based on the management and use of a movie content platform. Connecting with an api of movies and series (TMDB) I got all the necessary information to nurture my content application.
                                 It has two types of actors: administrator and user.<br />
                                 <br />
@@ -56,8 +56,8 @@ const Cinema = () => {
                 }
             </div>
             
-            <div className='img-text d-flex flex-row justify-content-between'>
-                <p className='pt-2'><strong>CINEMA:</strong> SASS / BOOTSTRAP / TYPESCRIPT/ REACT / REDUX / API REST / FIREBASE </p>
+            <div className='img-text d-flex flex-lg-row justify-content-between'>
+                <p className='pt-lg-2'><strong>CINEMA:</strong> SASS / BOOTSTRAP / TYPESCRIPT/ REACT / REDUX / API REST / FIREBASE </p>
                 <ul className='row info-demo '>
                     <li><button onClick={triggerToggle} >INFO</button></li>
                     <li><a href="https://ceciteser.github.io/Tmdb/" target="_blank">DEMO</a></li>
