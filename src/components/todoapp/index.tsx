@@ -40,9 +40,12 @@ const Todo = () => {
                             <div className='d-flex flex-column ps-5'>
                                 <h4>SKILLS</h4>
                                 <ul className='skills'>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>GRID</li>
+                                <li>REACT</li>
+                                <li>TYPESCRIPT</li>
+                                <li>API REST</li>
+                                <li>FIREBASE</li>
+                                <li>SASS</li>
+                                <li>BOOTSTRAP</li>
                                 </ul>
                             </div>
                         </div>
@@ -52,7 +55,7 @@ const Todo = () => {
             </div>
             
             <div className='img-text d-flex flex-row justify-content-between'>
-                <p className='pt-2'><strong>TO DO APP:</strong> SASS / BOOTSTRAP / TYPESCRIPT / REACT / API REST / FIREBASE</p>
+                <p className='pt-2'><strong>TO DO APP:</strong>  REACT / TYPESCRIPT / API REST / FIREBASE / SASS / BOOTSTRAP</p>
                 <ul className='row info-demo'>
                     <li><button onClick={triggerToggle} >INFO</button></li>
                     <li><a href="https://ceciteser.github.io/todoapp/" target="_blank">DEMO</a></li>
