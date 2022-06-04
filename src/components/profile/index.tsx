@@ -12,25 +12,25 @@ const Profile =()=>{
             <h4 className='mt-3'>CECI TESER</h4>
             <h5>FRONTEND DEVELOPER</h5>
         
-            <p className='pt-3'>Recently finished the Frontend developer career at ADA ITW and looking for the first experiences as Trainee or Junior developer.</p>
+            <p className='pt-3'>I´m a Frontend developer and I´m looking for the first experiences as Trainee or Junior developer.</p>
         
 
             <div className='mt-5'>
                 <h3>PROGRAMMING SKILLS</h3>
                 <ul className='pt-2'>
-                    <li>HTML5</li> 
-                    <li>CSS</li>
+                    <li>React js (Hooks, Hoc & Context)</li>
                     <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>Redux</li>
                     <li>Git</li>
                     <li>GitHub</li>
-                    <li>TypeScript</li>
                     <li>Responsive design</li>
                     <li>Api REST</li>
                     <li>Firebase</li>
                     <li>Bootstrap</li>
                     <li>Sass</li>
-                    <li>React js</li>
-                    <li>Redux</li>
+                    <li>HTML5</li> 
+                    <li>CSS</li>
                 </ul>
             </div>
 

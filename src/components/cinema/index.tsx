@@ -33,10 +33,10 @@ const Cinema = () => {
                                 <br />
                               
                                 <strong>Administrator</strong><br />
-                                Login with "role admin". Access to all pages of the site. Select items (movies or series) from the api to add to the playback platform (Firebase). Delete items (movies or series) from the Firebase platform. Delete users.<br />
+                                Login with "role admin". Access to all pages of the site. Select items (movies or series) from the api to add to the playback platform (Firebase). Delete items (movies or series) from the Firebase platform. Delete users. E-mail: mcteser@gmail.com Password: ceci2323 <br />
                                 <br />
                                 <strong>User</strong><br />
-                                Login with "role user". Access only to movies, series and details. Items (movies and series) can be marked as watched or unwatched.<br />
+                                Login with "role user". Access only to movies, series and details. Items (movies and series) can be marked as watched or unwatched. You can sign in or try it with email: joaquin@gmail.com - Password: joaqui22 <br />
                                 <br />
                                 <strong>Screens: </strong>Signup, Login, Admin, Home, Movies, Series, Detail
 
@@ -45,9 +45,13 @@ const Cinema = () => {
                         <div className='d-flex flex-column ps-5'>
                             <h4>SKILLS</h4>
                             <ul className='skills'>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>GRID</li>
+                                <li>REACT</li>
+                                <li>TYPESCRIPT</li>
+                                <li>REDUX</li>
+                                <li>API REST</li>
+                                <li>FIREBASE</li>
+                                <li>SASS</li>
+                                <li>BOOTSTRAP</li>
                             </ul>
                         </div>
                     </div>
@@ -57,7 +61,7 @@ const Cinema = () => {
             </div>
             
             <div className='img-text d-flex flex-lg-row justify-content-between'>
-                <p className='pt-lg-2'><strong>CINEMA:</strong> SASS / BOOTSTRAP / TYPESCRIPT/ REACT / REDUX / API REST / FIREBASE </p>
+                <p className='pt-lg-2'><strong>CINEMA:</strong> REACT / TYPESCRIPT / REDUX / API REST / FIREBASE / SASS / BOOTSTRAP </p>
                 <ul className='row info-demo '>
                     <li><button onClick={triggerToggle} >INFO</button></li>
                     <li><a href="https://ceciteser.github.io/Tmdb/" target="_blank">DEMO</a></li>

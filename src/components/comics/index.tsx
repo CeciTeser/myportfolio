@@ -46,9 +46,12 @@ const Comics = () => {
                             <div className='d-flex flex-column ps-5'>
                                 <h4>SKILLS</h4>
                                 <ul className='skills'>
+                                    <li>JAVASCRIPT</li>
+                                    <li>TYPESCRIPT</li>
+                                    <li>API REST</li>
                                     <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>GRID</li>
+                                    <li>SASS</li>
+                                    <li>BOOTSTRAP</li>
                                 </ul>
                             </div>
                         </div>
@@ -58,7 +61,7 @@ const Comics = () => {
             </div>
             
             <div className='img-text d-flex flex-row justify-content-between'>
-                <p className='pt-2'><strong>COMICS:</strong> HTML / SASS / BOOTSTRAP / TYPESCRIPT / JAVASCRIPT / API REST </p>
+                <p className='pt-2'><strong>COMICS:</strong> JAVASCRIPT / TYPESCRIPT / API REST / HTML / SASS / BOOTSTRAP </p>
                 <ul className='row info-demo'>
                     <li><button onClick={triggerToggle} >INFO</button></li>
                     <li><a href="https://buscador-de-comics.netlify.app/" target="_blank">DEMO</a></li>
